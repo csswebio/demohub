@@ -1,2 +1,2 @@
 # demohub
-web online demo
+demohub: web online demo
