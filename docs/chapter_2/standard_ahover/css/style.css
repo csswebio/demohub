@@ -1,0 +1,16 @@
+h1{
+  color: blue;
+  font-size: 99px;
+}
+a{
+  font-size: 99px;
+  border-bottom: 50px solid #000;
+}
+a:hover{
+  color: gray;
+  border-bottom: 100px solid red;
+}
+a:active{
+  color: yellow;
+}
+/* a:focus{} */

@@ -8,15 +8,3 @@ h1{
 .style_2{
   color: pink;
 }
-a{
-  font-size: 99px;
-  border-bottom: 50px solid #000;
-}
-a:hover{
-  color: gray;
-  border-bottom: 100px solid red;
-}
-a.active{
-  color: yellow;
-}
-/* a:focus{} */
