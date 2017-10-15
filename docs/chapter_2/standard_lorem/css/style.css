@@ -1,0 +1,18 @@
+h1{
+  color: blue;
+  font-size: 99px;
+  text-decoration: underline; /* line-through */
+}
+p{
+  font-family: verdana; /* arial; */
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left; /* right */
+  text-indent: 36px;
+}
+.style_1{
+  color: blue;
+}
+.style_2{
+  color: pink;
+}

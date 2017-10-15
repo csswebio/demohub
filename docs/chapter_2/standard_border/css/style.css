@@ -1,0 +1,25 @@
+h1{
+  color: blue;
+  font-size: 99px;
+  text-decoration: underline; /* line-through */
+  /* border: 10px dashed red; */
+  border: 10px dotted red; 
+}
+img{
+  /* border: 5px solid back; */
+  border-bottom: 5px solid #000;
+  border-right: 10px dashed red;
+}
+p{
+  font-family: verdana; /* arial; */
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left; /* right */
+  text-indent: 36px;
+}
+.style_1{
+  color: blue;
+}
+.style_2{
+  color: pink;
+}
