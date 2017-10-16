@@ -47,17 +47,20 @@ table {
 	width: 600px;
 	box-sizing: border-box;
 }
-.box_header{
+.header{
 	height: 25px;
 	background: purple;
 	margin-bottom: 10px;
 }
-.box_header a{
+.header a{
 	display: inline-block;
 	color: white;
 	font-size: 12px;
 	text-decoration: none;
 	margin: 6px 10px;
+}
+.header a:hover{
+	text-decoration: underline
 }
 .setting {
 	font-weight: bold;
@@ -103,11 +106,11 @@ table {
 .clearfix{
 	clear: both;
 }
-.box_footer{
+.footer{
 	height: 30px;
 	background: gray;
 }
-.box_footer p{
+.footer p{
 	text-align: center;
 	padding-top: 6px;
 }
