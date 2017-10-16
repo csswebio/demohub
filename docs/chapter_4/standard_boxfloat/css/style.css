@@ -50,19 +50,17 @@ table {
 .box_header{
 	height: 25px;
 	background: purple;
-	padding-top: 5px;
 }
 .box_header a{
+	display: inline-block;
 	color: white;
 	font-size: 12px;
 	text-decoration: none;
-	margin-left: 10px;
-	padding-top: 5px;
+	margin: 6px 10px;
 }
-.box_header .setting{
+.setting {
 	font-weight: bold;
 	float: right;
-	margin-right: 10px;
 }
 .box_1{
 	width: 80px;
