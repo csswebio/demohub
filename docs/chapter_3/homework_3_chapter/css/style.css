@@ -59,7 +59,7 @@ table {
 	color: blue;
 	padding-top: 15px;
 }
-a{
+.content a{
 	display: block;
 	width: 140px;
 	height: 25px;
@@ -75,24 +75,15 @@ a{
 a:hover{
 	background: black;
 }
-
-/*.box_file:hover{
-	color: white;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
-	padding-top: 12px;
-}*/
 .footer{
 	height: 50px;
 	background: pink;
 }
 .footer p{
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 20px;
 }
 img{
 	padding: 30px;
 	padding-left: 35px
-	/*padding-left: 50px;*/
 }
