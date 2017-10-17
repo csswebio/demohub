@@ -78,7 +78,6 @@ table {
 	margin-bottom: 10px;
 }
 .menu{
-	/*height: 20px;*/
 	width: 150px;
 	color: white;
 	background: black;
@@ -87,23 +86,22 @@ table {
 	margin-right: 10px;
 }
 .content{
-	/*height: 20px;*/
-	width: 330px;
+	width: 310px;
 	background: pink;
 	float: left;
-	margin-right: 10px;
 }
 .aside{
-	/*height: 20px;*/
 	width: 100px;
 	color: white;
 	background: blue;
-	float: left;
+	float: right;
 }
-.clearfix{
+/*.clearfix{
 	clear: both;
-}
-.main_clearfix{
+}*/
+.clearfix:after{
+	content: '';
+	display: table;
 	clear: both;
 }
 .footer{
