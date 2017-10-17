@@ -59,11 +59,13 @@ table {
 }
 .header a{
 	display: inline-block;
+  /* set {display: inline-block } because just {a:hover just only text-decoration: underline } don't need {display: block & height: 25px } for {a:hover change background: orange } */
 	color: white;
 	background: purple;
 	font-size: 12px;
 	text-decoration: none;
 	margin: 6px 10px;
+	/* set margin not padding because {dispaly: inline-block & don't need height } */
 }
 .header a:hover{
 	text-decoration: underline
@@ -86,12 +88,14 @@ table {
 	display: block;
 	width: 120px;
 	height: 30px;
+	/* set height twice {.topmenu & .topmenu li a } for { display: block & a:hover } */
 	color: white;
 	background: blue;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 	padding: 6px 0px;
+	/* set padding not margin because text { display: block & height: 30px } */
 }
 .topmenu li a:hover{
 	background: orange;
