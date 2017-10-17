@@ -85,12 +85,13 @@ table {
 .topmenu li a{
 	display: block;
 	width: 120px;
+	height: 30px;
 	color: white;
 	background: blue;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	padding: 10px 0px;
+	padding: 6px 0px;
 }
 .topmenu li a:hover{
 	background: orange;
